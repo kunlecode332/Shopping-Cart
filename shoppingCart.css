@@ -1,0 +1,53 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 0px 0px 10px 0px;
+}
+
+.quantity-btn {
+    margin: 0 5px;
+    cursor: pointer;
+}
+.item2 button.minus{
+    margin-left: 60px;
+}
+.item1 button.minus{
+    margin-left: 50px;
+}
+.item3 button.minus{
+    margin-left: 65px;
+}
+.item4 button.minus{
+    margin-left: 55px;
+}
+.item5 button.minus{
+    margin-left: 27px;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.like-btn {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.liked {
+    color: green;
+}
+
+.total {
+    text-align: right;
+}
